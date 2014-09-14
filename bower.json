@@ -1,0 +1,19 @@
+{
+  "name": "myrba.net",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bastien03/myrba.net",
+  "authors": [
+    "bastien03 <bastienmary@gmail.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.0"
+  }
+}
