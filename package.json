@@ -14,5 +14,16 @@
   "bugs": {
     "url": "https://github.com/bastien03/myrba.net/issues"
   },
-  "homepage": "https://github.com/bastien03/myrba.net"
+  "homepage": "https://github.com/bastien03/myrba.net",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-jshint": "~0.7.1",
+    "load-grunt-tasks": "~0.4.0",
+    "jshint-stylish": "~0.1.3",
+    "grunt-contrib-connect": "~0.5.0"
+  }
 }
