@@ -1,4 +1,4 @@
-myrba.net
-=========
+# myrba.net
 
-myrba.net
+## Local setup
+`grunt serve`

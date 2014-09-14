@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>myrba.net</title>
+  
+    <link rel="shortcut icon" href="http://www.gravatar.com/avatar/56b0aa883a5a3ab78b7db96b88bee8e7.png" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
     <!-- 1. Load platform.js for polyfill support. -->
     <script src="bower_components/platform/platform.js"></script>
 
     <!-- 2. Use an HTML Import to bring in the element. -->
-    <link rel="import"
-          href="bower_components/core-ajax/core-ajax.html">
+    <link rel="import" href="bower_components/core-ajax/core-ajax.html" />
+    <link rel="import" href="app_elements/mysite/my-site.html" />
   </head>
+
   <body>
+    <h1>Welcome</h1>
+    <aside>"Ceci n'est pas un site." <a href="http://en.wikipedia.org/wiki/The_Treachery_of_Images">René Magritte</a></aside>
 
-    <script>
-      // Wait for 'polymer-ready'. Ensures the element is upgraded.
-      window.addEventListener('polymer-ready', function(e) {
-        var ajax = document.querySelector('core-ajax');
+    <h2>List of projects</h2>
+    <ul>
+      <my-site name="movies" url="/movies"></my-site>
+      <my-site name="churches" url="/churches"></my-site>
+      <my-site name="gwt" url="/gwt"></my-site>
+      <my-site name="books-api" url="/books-api/books"></my-site>
+      <my-site name="jenkins" url="/jenkins"></my-site>
+    </ul>
 
-        // Respond to events it fires.
-        ajax.addEventListener('core-response', function(e) {
-          console.log(this.response);
-        });
-
-        ajax.go(); // Call its API methods.
-      });
-    </script>
-    salut
   </body>
+
 </html>

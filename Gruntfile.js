@@ -56,7 +56,10 @@ module.exports = function(grunt) {
             tasks: ['bowerInstall']
         },
         js: {
-            files: ['<%= myrba.app %>/scripts/**/*.js'],
+            files: [
+              '<%= myrba.app %>/scripts/**/*.js',
+              '<%= myrba.app %>/app_elements/**/*.js',
+            ],
             tasks: ['jshint'],
             options: {livereload: true}
         },

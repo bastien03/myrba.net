@@ -1,0 +1,13 @@
+html {
+	font-family: Verdana,sans-serif;
+	font-size: 12px;
+}
+aside {
+	font-style: italic;
+}
+@media (max-width: 600px) {
+    html {
+        background-color: black;
+        color: white;
+    }
+}
