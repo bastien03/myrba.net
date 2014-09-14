@@ -1,0 +1,18 @@
+{
+  "name": "myrba.net",
+  "version": "0.1.0",
+  "description": "myrba.net =========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bastien03/myrba.net.git"
+  },
+  "author": "bastien03 <bastienmary@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/bastien03/myrba.net/issues"
+  },
+  "homepage": "https://github.com/bastien03/myrba.net"
+}
